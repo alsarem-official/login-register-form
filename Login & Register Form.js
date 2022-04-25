@@ -1,0 +1,10 @@
+document.querySelector(".btn-register").addEventListener("click",function(){
+    document.querySelector(".toggle-btn").style.left="150px";
+    document.querySelector(".register").style.left="0px";
+    document.querySelector(".login").style.left="-350px";
+});
+document.querySelector(".btn-login").addEventListener("click",function(){
+    document.querySelector(".toggle-btn").style.left="0px";
+    document.querySelector(".register").style.left="350px";
+    document.querySelector(".login").style.left="0px";
+});

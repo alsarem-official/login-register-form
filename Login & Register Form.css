@@ -1,0 +1,138 @@
+*
+{
+    padding: 0;
+    margin:0;
+}
+body
+{
+    background: url(form.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+}
+.container
+{
+    height:460px;
+    width:350px;
+    background: rgba(255,255,255,0.4);
+    position: relative;
+    overflow: hidden;
+}
+.button
+{
+    height:70px;
+    width:300px;
+    position: relative;
+    margin: 25px;
+    border-radius: 60px;
+    box-shadow: 3px 3px 5px #434343,-3px -3px 5px #000000;
+}
+.button .btn-login
+{
+    height:70px;
+    width:150px;
+    background: transparent;
+    position: absolute;
+    top:0;
+    left:0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 17px;
+    color:rgba(255,255,255,1);
+    text-shadow: 1px 1px 1px rgba(0,0,0,1);
+    z-index: 1;
+    cursor: pointer;
+}
+.button .btn-register
+{
+    height:70px;
+    width:150px;
+    background: transparent;
+    position: absolute;
+    top:0;
+    left:150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 17px;
+    color:rgba(255,255,255,1);
+    text-shadow: 1px 1px 1px rgba(0,0,0,1);
+    z-index: 2;
+    cursor: pointer;
+}
+.button .toggle-btn
+{
+    height:70px;
+    width:150px;
+    background: linear-gradient(#434343,#000000);
+    position: absolute;
+    top:0;
+    left:0;
+    transform: 0.5s;
+    border-radius: 60px;
+    transition:0.5s;
+}
+.login
+{
+    height:350px;
+    width:330px;
+    position: absolute;
+    transition: 0.5s;
+}
+input[type="text"],input[type="email"],input[type="password"]
+{
+    height:60px;
+    width:300px;
+    margin: 0px 25px;
+    box-sizing: border-box;
+    border:none;
+    outline:none;
+    background: transparent;
+    color:#000000;
+    font-size: 14px;
+    padding: 0px 10px;
+    border-bottom: 1px solid #000000;
+}
+input[type="text"]::placeholder,input[type="email"]::placeholder,input[type="password"]::placeholder
+{
+    color:#000;
+}
+input[type="checkbox"]
+{
+    margin: 25px 6px 0px 35px;
+}
+input[type="submit"]
+{
+    height:60px;
+    width:300px;
+    margin: 25px 25px 0px 25px;
+    box-shadow: 3px 3px 5px #434343,-3px -3px 5px #000000;
+    background: linear-gradient(#434343,#000000);
+    border:none;
+    outline:none;
+    border-radius: 60px;
+    font-size:20px;
+    color:rgba(255,255,255,1);
+    text-shadow: 1px 1px 1px rgba(0,0,0,1);
+    cursor: pointer;
+}
+.register
+{
+    width:350px;
+    height:330px;
+    position: absolute;
+    transition:0.5s;
+    left:350px;
+}
+
+
+
+
+
+
+
+
